@@ -10,7 +10,7 @@ class ClavesListview extends StatelessWidget {
     final List<MuscleCategory> muscles = [
       MuscleCategory(
         muscleTextColor: Colors.green,
-        muscleTextA: 'سمانة علي الدكة',
+        muscleTextA: 'السمانة علي الدكة',
         muscleTextE: 'Seated calf raise',
         muscleImage:
             'images/leg/semana/26661301-Lever-Seated-Calf-Raise-plate-loaded-VERSION-2_Calves_360.gif',

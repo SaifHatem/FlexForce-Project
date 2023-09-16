@@ -10,12 +10,12 @@ class HamestringListview extends StatelessWidget {
     final List<MuscleCategory> muscles = [
       MuscleCategory(
         muscleTextColor: Colors.blue,
-        muscleTextA: 'ديت ليفت بالمبل',
+        muscleTextA: 'ديت ليفت بالدامبل',
         muscleTextE: 'Romanian deadlift dummbell',
         muscleImage:
             'images/leg/back Leg/03001301-Dumbbell-Deadlift_Back_360.gif',
         muscleDescriotion:
-            ' * رجوع مفصل الورك الي الخلف\n * ثني الركبة بدرجة بسيطة\n * نزول الوزن في خط مستقيم\n ',
+            ' * رجوع مفصل الورك للخلف\n * ثني الركبة بدرجة بسيطة\n * نزول الوزن في خط مستقيم\n ',
       ),
     ];
 
