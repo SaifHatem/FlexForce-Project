@@ -1,0 +1,178 @@
+name: flex_force
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  video_player: ^2.7.1
+  flutter_gif: ^0.0.4
+
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - images/bench.jpg
+     - images/mainback.jpg
+     - images/leg.jpg
+     - images/bi.jpg
+     - images/tricebs.jpg
+     - images/forward.jpg
+     - images/leteral.avif
+     - images/back.avif
+     - images/lastback.jpg
+     - images/near_ktf.jpg
+     - images/wide_chest.jpg
+     - images/deep_chest.jpg
+     - images/deep_bicebs.jpg
+     - images/deep_tricebs.jpg
+     - images/deep_shoulder.png
+     - images/deep_back.jpg
+     - images/deep_trabees.jpg
+     - images/deep_qudriceps.jpg
+     - images/deep_hamstring-removebg-preview.png
+     - images/deep_hamstring.jpg
+     - images/deep_claves-removebg-preview.png
+     - images/back/general/3okla.gif
+     - images/back/general/sahp_bar.gif
+     - images/back/katania/katania.gif
+     - images/back/magns/bar_bench.gif
+     - images/back/magns/lat_pull_down_narrow_mastara.gif
+     - images/back/magns/lat_pull_down_narrow.gif
+     - images/back/magns/lat_pull_down.gif
+     - images/back/magns/magnsbench.gif
+     - images/back/magns/latpulldownfront.gif
+     - images/back/rotato/backShoulderDumbell.gif
+     - images/back/rotato/backShoulderDumbellBench.gif
+     - images/back/rotato/backShoulderRobe.gif
+     - images/back/small/sahb_ardi-diq.png
+     - images/back/trabees/tarabeesbar.gif
+     - images/back/trabees/tarabeesBarSmith.gif
+     - images/back/trabees/tarabeesCurl.gif
+     - images/back/trabees/tarabeesDumbbell.gif
+     - images/tricebs/13991301-Bench-dip-on-floor_Upper-Arms_360.gif
+     - images/tricebs/long head/bar_behind_head.gif
+     - images/tricebs/long head/Barbell-JM-Bench-Press.gif
+     - images/tricebs/long head/double_dumbell_frencch.gif
+     - images/tricebs/long head/incline_bar_zegzag.gif
+     - images/tricebs/long head/Single_dumble_frenche.gif
+     - images/tricebs/litral head/02411301-Cable-Triceps-Pushdown-V-bar-attachment_Upper-Arms_360.gif
+     - images/tricebs/litral head/03331301-Dumbbell-Kickback_Upper-Arms_360.gif
+     - images/tricebs/litral head/Cable-Pushdown-with-rope.gif
+     - images/tricebs/medial head/16061301-Cable-Reverse-Grip-Triceps-Pushdown-SZ-bar_Upper-arms_360-1.gif
+     - images/tricebs/medial head/Cable-kickback.gif
+     - images/biceps/breciales/brecials_set.gif
+     - images/biceps/breciales/Hammer-Curl.gif
+     - images/biceps/longhead/behind_cable_curl.gif
+     - images/biceps/longhead/Seated-Incline-Dumbbell-Curl.gif
+     - images/biceps/shorthead/Bar_prechair.gif 
+     - images/biceps/shorthead/barBicebesCurl.gif
+     - images/biceps/shorthead/cableCurl.gif
+     - images/biceps/shorthead/Concentration-Curl.gif
+     - images/biceps/shorthead/Dumbbell-Preacher-Curl.gif
+     - images/shoulder/back_shoulder/03801301-Dumbbell-Rear-Lateral-Raise_Shoulders_360.gif
+     - images/shoulder/back_shoulder/Dumbbell-Lying-Rear-Lateral-Raise_shoulder_360.gif
+     - images/shoulder/front_arm/00411301-Barbell-Front-Raise_Shoulders_360.gif
+     - images/shoulder/front_arm/00911301-Barbell-Seated-Overhead-Press_Shoulders_360.gif
+     - images/shoulder/front_arm/cableForwardRaise_Shoulders.gif
+     - images/shoulder/front_arm/cableFrontRaiseShoulders.gif
+     - images/shoulder/front_arm/dumbbellStandingOverheadPressShoulde.gif
+     - images/shoulder/front_arm/Weighted-Front-Raise_Shoulders.gif
+     - images/shoulder/front_arm/Two-Arm-Dumbbell-Front-Raise .gif
+     - images/shoulder/near_arm/Double dummblle raise.gif
+     - images/shoulder/near_arm/05841301-Lever-Lateral-Raise_shoulder_360-1.gif
+     - images/shoulder/near_arm/Dumbbell-One-Arm-Lateral-Raise_shoulder.gif
+     - images/leg/back Leg/03001301-Dumbbell-Deadlift_Back_360.gif
+     - images/leg/back Leg/regl_khalfi.png
+     - images/leg/frontLeg/14621301-Barbell-Full-Squat-Side-POV_Thighs_360.gif
+     - images/leg/frontLeg/Horizontal-Leg-Press.gif
+     - images/leg/frontLeg/Leg-Press .gif
+     - images/leg/semana/26661301-Lever-Seated-Calf-Raise-plate-loaded-VERSION-2_Calves_360.gif
+     - videos/DFlyFlat.mp4
+     - images/upper_head/lowToheigh.gif
+     - images/upper_head/DPressIncline.gif
+     - images/upper_head/DFlyIncline.gif
+     - images/upper_head/BPressIncline.gif
+     - images/middle_head/flyMachine.gif
+     - images/middle_head/flatCable.gif
+     - images/middle_head/DpressFlat.gif
+     - images/middle_head/DFlyFlat.gif
+     - images/middle_head/BPressFlat.gif
+     - images/low_head/highToLow.gif
+
+
+     
+     
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+     - family: BreeSerif
+       fonts:
+         - asset: fonts/BreeSerif-Regular.ttf
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
